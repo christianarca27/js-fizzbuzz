@@ -1,0 +1,43 @@
+body {
+    background-color: #083b4c;
+    font-family: sans-serif;
+}
+
+body > h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.container-centered {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.square {
+    background-color: #1389b2;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizz.buzz {
+    background-color: #f0466f;
+}
